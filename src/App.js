@@ -1,13 +1,18 @@
 import './App.css';
+import logo from './img/logo.png';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+import React, { Component } from 'react';
 
-      </header>
-    </div>
-  );
+class App extends Component {
+  render () {
+    return (
+      <img className="logo-fixed" src={logo} alt="Logo"/>
+    )
+  }
 }
 
+
 export default App;
+
+
+
