@@ -23,13 +23,20 @@
   flex-basis: 90%;
   align-items: flex-start;
   justify-content: center;
-  width: 100%;
 }
-.title-logo img{
+.title-logo img {
   display: flex;
   width: 75vh;
   padding: 20px;
 }
+.ellipse {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  flex-basis: 90%;
+}
+
 
 
 
