@@ -1,6 +1,38 @@
-.logo-fixed {
-  width: 250px;
-  position: fixed;
-  margin-top: 30px;
-  right: 40%;
+.div-body {
+  display: flex;
 }
+.sidebar {
+  display: flex;
+  flex-flow: column wrap;
+  flex-basis: 10%;
+  color: white;
+  background-color: #3A506B;
+  height: 100vh;
+  padding: 15px;
+}
+.sidebar-icons {
+  display: flex;
+  align-self: center;
+}
+.sidebar-icons img {
+  width: 50px;
+}
+.title-logo {
+  display: flex;
+  flex-flow: row wrap;
+  flex-basis: 90%;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+.title-logo img{
+  display: flex;
+  width: 75vh;
+  padding: 20px;
+}
+
+
+
+
+
+
