@@ -4,30 +4,32 @@
 }
 .content {
   display: flex;
-  flex-flow: row wrap;
   flex-basis: 100%;
+  flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
   background-image: url('./img/ellipse.png');
   background-size: 70vh;
-background-repeat: no-repeat;
-background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .cards {
   display: flex;
-  align-items: flex-end;
-  flex-basis: 100%;
+  flex-flow: row wrap;
+  align-content: flex-end;
   width: 100%;
+  height: 80%;
 }
 .card-one {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  width: 200px;
-  height: 300px;
+  align-content: flex-end;
+  margin-left : 40px;
+  width: 400px;
+  height: 500px;
   background: rgba(58, 80, 107, 0.4);
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(20px);
   border-radius: 60px;
 }
 .card-two {
@@ -39,7 +41,6 @@ background-position: center;
 .card-four {
   display: flex;
 }
-
 
 
 
