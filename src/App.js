@@ -3,7 +3,6 @@ import Sidebar from './components/Sidebar'
 import Title from './components/Title'
 
 
-import ellipse from './img/ellipse.png'
 
 import React, { Component } from 'react';
 
@@ -14,10 +13,12 @@ class App extends Component {
               <Sidebar/>
                 <div className="content">
                   <Title/>
- 
-                  <div className="ellipse">
-                    <img src={ellipse} alt="Ellipse" />
-                  </div>
+                      <div className="cards">
+                        <div className="card-one"/>
+                          <div className="card-two"/>
+                            <div className="card-three"/>
+                              <div className="card-four"/>
+                      </div>
                 </div>
             </div>
     )

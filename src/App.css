@@ -5,23 +5,41 @@
 .content {
   display: flex;
   flex-flow: row wrap;
-  flex-basis: 95%;
+  flex-basis: 100%;
   align-items: flex-start;
   justify-content: center;
+  background-image: url('./img/ellipse.png');
+  background-size: 70vh;
+background-repeat: no-repeat;
+background-position: center;
 }
 
-
-
-.ellipse {
+.cards {
   display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  align-items: center;
-  flex-basis: 95%;
+  align-items: flex-end;
+  flex-basis: 100%;
+  width: 100%;
 }
-.ellipse img {
-  width : 70vh;
+.card-one {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 200px;
+  height: 300px;
+  background: rgba(58, 80, 107, 0.4);
+  backdrop-filter: blur(50px);
+  border-radius: 60px;
 }
+.card-two {
+  display: flex;
+}
+.card-three {
+  display: flex;
+}
+.card-four {
+  display: flex;
+}
+
 
 
 
