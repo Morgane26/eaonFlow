@@ -1,7 +1,7 @@
 .sidebar {
     display: flex;
     flex-flow: column wrap;
-    flex-basis: 10%;
+    flex-basis: 5%;
     justify-content: space-between;
     align-items: center;
     background-color: #3A506B;
@@ -11,15 +11,15 @@
     display: flex;
 }
 .sidebar-icon img {
-    width: 50px;
+    width: 30px;
 }
 .sidebar-group {
     display: flex;
     flex-flow: column wrap;
 }
 .sidebar-group img {
-    width: 50px;
-    margin: 10px;
+    width: 30px;
+    margin: 15px;
 
 }
 .sidebar-connexion {
@@ -27,5 +27,6 @@
     align-items: flex-end; 
 }
 .sidebar-connexion img {
-    width: 50px;
+    width: 30px;
+    margin: 15px;
 }

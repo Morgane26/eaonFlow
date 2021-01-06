@@ -5,13 +5,13 @@
 .title-logo {
   display: flex;
   flex-flow: row wrap;
-  flex-basis: 90%;
+  flex-basis: 95%;
   align-items: flex-start;
   justify-content: center;
 }
 .title-logo img {
   display: flex;
-  width: 75vh;
+  width: 50vh;
   padding: 20px;
 }
 .ellipse {
@@ -19,7 +19,7 @@
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-  flex-basis: 90%;
+  flex-basis: 95%;
 }
 
 
