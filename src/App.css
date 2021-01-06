@@ -1,22 +1,6 @@
 .div-body {
   display: flex;
 }
-.sidebar {
-  display: flex;
-  flex-flow: column wrap;
-  flex-basis: 10%;
-  color: white;
-  background-color: #3A506B;
-  height: 100vh;
-  padding: 15px;
-}
-.sidebar-icons {
-  display: flex;
-  align-self: center;
-}
-.sidebar-icons img {
-  width: 50px;
-}
 .title-logo {
   display: flex;
   flex-flow: row wrap;
