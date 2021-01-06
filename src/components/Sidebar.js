@@ -1,4 +1,4 @@
-import logoSidebar from '../img/logoSidebar.png'
+import logoSidebar from '../img/logoSidebar.svg'
 import logoDashboard from '../img/logoDashboard.png'
 import logoFlow from '../img/logoFlow.png'
 import logoByEnergy from '../img/logoByEnergy.png'
