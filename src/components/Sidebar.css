@@ -19,6 +19,8 @@
 }
 .sidebar-group img {
     width: 50px;
+    margin: 10px;
+
 }
 .sidebar-connexion {
     display: flex;

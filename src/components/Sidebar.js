@@ -16,9 +16,9 @@ class Sidebar extends Component {
                     <img src={logoSidebar} alt="Logo Sidebar"/>
                 </div>
                 <div className="sidebar-group">
-                    <img src={logoDashboard} alt="Logo Dashboard"/>
-                    <img src={logoFlow} alt="Logo Flow"/>
-                    <img src={logoByEnergy} alt=" Logo By Energy" />
+                        <img src={logoDashboard} alt="Logo Dashboard"/>
+                        <img src={logoFlow} alt="Logo Flow"/>
+                        <img src={logoByEnergy} alt=" Logo By Energy" />
                 </div>
                 <div className="sidebar-connexion">
                     <img src={logoLogin} alt="Logo Login" />
