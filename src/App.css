@@ -1,5 +1,6 @@
 .div-body {
   display: flex;
+  height: 100vh;
 }
 .title-logo {
   display: flex;

@@ -2,15 +2,28 @@
     display: flex;
     flex-flow: column wrap;
     flex-basis: 10%;
-    color: white;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3A506B;
-    height: 100vh;
     padding: 15px;
-  }
-  .sidebar-icons {
+}
+.sidebar-icon {
     display: flex;
-    align-self: center;
-  }
-  .sidebar-icons img {
+}
+.sidebar-icon img {
     width: 50px;
-  }
+}
+.sidebar-group {
+    display: flex;
+    flex-flow: column wrap;
+}
+.sidebar-group img {
+    width: 50px;
+}
+.sidebar-connexion {
+    display: flex;
+    align-items: flex-end; 
+}
+.sidebar-connexion img {
+    width: 50px;
+}
