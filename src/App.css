@@ -2,18 +2,16 @@
   display: flex;
   height: 100vh;
 }
-.title-logo {
+.content {
   display: flex;
   flex-flow: row wrap;
   flex-basis: 95%;
   align-items: flex-start;
   justify-content: center;
 }
-.title-logo img {
-  display: flex;
-  width: 50vh;
-  padding: 20px;
-}
+
+
+
 .ellipse {
   display: flex;
   justify-content: center;
