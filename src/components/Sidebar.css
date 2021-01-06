@@ -12,6 +12,7 @@
 }
 .sidebar-icon img {
     width: 30px;
+    margin: 15px;
 }
 .sidebar-group {
     display: flex;
