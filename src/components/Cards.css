@@ -1,0 +1,53 @@
+.cards {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 80%;
+    margin: 15px;
+}
+.card-one {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-left: 15px;
+    width: 400px;
+    height: 500px;
+    background: rgba(58, 80, 107, 0.4);
+    backdrop-filter: blur(20px);
+    border-radius: 60px;
+}
+.box-of-two-cards {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 30px;
+    width: 400px;
+    height: 500px;
+    justify-content: space-around;
+}
+.card-two {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background: rgba(58, 80, 107, 0.4);
+    backdrop-filter: blur(20px);
+    border-radius: 60px;
+}
+.card-three {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background: rgba(58, 80, 107, 0.4);
+    backdrop-filter: blur(20px);
+    border-radius: 60px;
+}
+.card-four {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    margin-left : 30px;
+    width: 400px;
+    height: 500px;
+    background: rgba(58, 80, 107, 0.4);
+    backdrop-filter: blur(20px);
+    border-radius: 60px;
+}
