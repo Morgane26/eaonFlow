@@ -14,33 +14,6 @@
   background-position: center;
 }
 
-.cards {
-  display: flex;
-  flex-flow: row wrap;
-  align-content: flex-end;
-  width: 100%;
-  height: 80%;
-}
-.card-one {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: flex-end;
-  margin-left : 40px;
-  width: 400px;
-  height: 500px;
-  background: rgba(58, 80, 107, 0.4);
-  backdrop-filter: blur(20px);
-  border-radius: 60px;
-}
-.card-two {
-  display: flex;
-}
-.card-three {
-  display: flex;
-}
-.card-four {
-  display: flex;
-}
 
 
 

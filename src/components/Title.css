@@ -1,5 +1,7 @@
-.title-logo img {
+.title-logo {
     display: flex;
+}
+.title-logo img {
     width: 50vh;
     padding: 20px;
     margin: 15px;
