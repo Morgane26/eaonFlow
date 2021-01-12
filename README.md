@@ -6,9 +6,8 @@ Hackaviz 2021 - Energy & Environment
 
 1 - Clone the project on your own computer
 ```bash
-$ git clone <github_ssh_clone_url>
+$ git clone <git@github.com:Morgane26/eaonFlow.git>
 ```
-Clone with SSH, not HTTPS.
 
 2 - You should know have a complete .env file. Install the dependencies:
 ```bash
