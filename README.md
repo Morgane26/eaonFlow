@@ -73,15 +73,3 @@ $ git pull origin master
 Never commit directly to master. Use feature branches.
 Always make sure git status is clean before pull, checkout or merge.
 
-
-
-
-
-
-
-
-
-
-
-
-
